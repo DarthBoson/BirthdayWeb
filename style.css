@@ -140,38 +140,43 @@
   
   .front{
 	  background-image: url("front.png");
-	  background-size: cover;
+	  background-size: contain;
 	  background-position: center;
+	  background-repeat: no-repeat;
   }
   
   .back{
 	  background-image: url("back.png");
-	  background-size: cover;
+	  background-size: contain;
 	  background-position: center;
+	  background-repeat: no-repeat;
   }
   
   .front1{
 	  background-image: url("front1.png");
-	  background-size: cover;
+	  background-size: contain;
 	  background-position: center;
+	  background-repeat: no-repeat;
   }
   
   .back1{
 	  background-image: url("back1.png");
-	  background-size: cover;
+	  background-size: contain;
 	  background-position: center;
+	  background-repeat: no-repeat;
   }
   
   .inside{
 	  background-image: url("inside.png");
-	  background-size: cover;
+	  background-size: contain;
 	  background-position: center;
+	  background-repeat: no-repeat;
   }
 
   /* Mobile optimizations */
   @media (max-width: 768px) {
 	.card {
-	  width: 95vw;
+	  width: 90vw;
 	  height: 60vh;
 	  min-height: 400px;
 	}
@@ -187,8 +192,8 @@
   
   @media (max-width: 480px) {
 	.card {
-	  height: 55vh;
-	  min-height: 350px;
+	  height: 25vh;
+	  min-height: 225px;
 	}
 	
 	.inside {
