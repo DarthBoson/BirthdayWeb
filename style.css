@@ -5,7 +5,7 @@
 	font-family: "Poppins", sans-serif;
   }
   body {
-	background-color: #ede8d0;
+	background-color: #000000;
 	background-image: url("BACKGROUND.jpg");
 	background-blend-mode: lighten;
 	background-repeat: repeat; /* Do not repeat the image */
@@ -199,4 +199,5 @@
 	.inside {
 	  padding: 0 10px;
 	}
+
   }
